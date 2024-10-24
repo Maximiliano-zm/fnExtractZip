@@ -1,0 +1,15 @@
+{
+  "name": "fnextractzip",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "unzipper": "^0.12.3"
+  },
+  "main": "src/{index.js,functions/*.js}"
+}
